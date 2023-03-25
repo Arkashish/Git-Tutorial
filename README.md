@@ -27,18 +27,18 @@ In simple terms git restore gives the version of code uptill the last committed 
 12. Diff between git rm and git restore 
 ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working area or staging area then we git restore.
 
-13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits
+13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits.
 
 14. `git commit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use this following command.
 
-15. `git remote` -> list down all the remote connection names
+15. `git remote` -> list down all the remote connection names.
 
 16. Remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise.
 
 17. `git remote add <name of remote> <link of the remote>` : this command helps us to add a new link to the remote repo and give a name to it.
 The <name of remote> can be anything. Generally we use origin(by default) but any name can be given.
 
-18. `git remote rm <name of remote>` -> this command deletes a remote connection
+18. `git remote rm <name of remote>` -> this command deletes a remote connection.
 
 19. `git remote rename <olanme> <newname>` -> this command remanes the remote connection
 
